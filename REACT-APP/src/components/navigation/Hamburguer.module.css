@@ -1,0 +1,53 @@
+.hamburguerContainer {
+    width: 4rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.stripes {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.stripe {
+    width: 18px;
+    background: #524f4f;
+    height: 1px;
+    margin-bottom: 5px;
+}
+
+.close {
+    cursor: pointer;
+    margin-right: 1rem;
+    position: relative;
+   
+    animation: closeAnim 0.5s ease;
+}
+
+@keyframes closeAnim {
+    0% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.closeRight {
+    width: 1px;
+    height: 1.2rem;
+    background: #524f4f;
+    transform: rotate(45deg);
+    position: absolute;
+    transition: 1s ease;
+}
+
+.closeLeft {
+    width: 1px;
+    height: 1.2rem;
+    background: #524f4f;
+    transform: rotate(-45deg);
+    transition: 1s ease;
+}

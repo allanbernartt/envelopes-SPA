@@ -1,0 +1,191 @@
+.nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navContainer {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'ROBOTO';
+    background: white;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    position: sticky;
+    z-index: 400;
+    -webkit-box-shadow: 0px 1px 3px #d1bed1;
+    -moz-box-shadow: 0px 1px 31px #d1bed1;
+    box-shadow: 0px 1px 3px #d1bed1;
+}
+
+.navList {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;   
+}
+
+.navList li {
+    margin: 0 5px;
+}
+
+.navList a {
+    color: #524f4f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navList a.active, .navList a:hover {
+    color: #e34f71 !important;
+    transition: 0.4s ease;    
+}
+
+.navList2 {
+    display: none;
+    flex-direction: column;
+  z-index: 1;    
+    width: 100%;
+    background-color: white;
+   position: absolute;
+   list-style: none;
+    padding: 0 2rem;  
+}
+
+.navList2 li {
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 1.3rem auto;
+    font-weight: 300;
+    border-bottom: 1px solid #646262;
+    padding: 10px;
+    width: 90%;   
+}
+
+.navList2 p{
+    color: black;
+    margin: 0;
+    cursor: pointer;
+}
+
+.navList2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.navList2 a.active, .navList2 a:hover {
+    color: #e34f71 !important;
+    transition: 0.4s ease;    
+}
+
+.logo {
+    color: #524f4f;
+    margin-left: 1rem;    
+}
+
+.checkBtn {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;    
+}
+
+.hamburger {
+    display: none;
+}
+
+.backDrop {
+    display: none;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75 );
+}
+
+.animIn {
+   
+    animation: slideIn 0.5s ease;
+}
+    
+@keyframes slideIn {
+    0% {
+      transform: translateY(-1000px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.animOut {
+    animation: slideOut 0.5s ease;
+}
+
+    
+@keyframes slideOut {
+    0% {
+        opacity: 1;
+      transform: translateY(0);
+    }
+   100% {
+      transform: translateY(-1000px);      
+    }    
+  }
+
+ .brand {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .brandMobile {
+    display: none;
+  }
+
+  .logoMobile {
+    display: none;
+  }
+
+@media only screen and (max-width: 700px) {
+    .hamburger {
+        display: block;
+    }    
+    .backDrop {
+        display: block;
+    }
+    .navList {
+        display: none;
+       
+    }
+   .navList2 {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    }      
+    .brand {
+        display: none;
+    }
+    .brandMobile {
+        display: flex;
+      }
+    .logoMobile {
+        display: block;
+      }
+  }
+
+  
+
+  
+

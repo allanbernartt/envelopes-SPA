@@ -1,0 +1,118 @@
+.authContainer {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loginFormContainer {
+    display: flex;
+    flex-direction: column;    
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px -1px rgb(0 0 0 / 79%);    
+}
+
+.loginFormTitle {   
+    padding: 20px;    
+}
+
+.loginFormTitle h1 {
+    color: #524f4f;
+    font-size: 1rem;
+}
+
+.loginFormInputs {    
+    display: flex;
+    flex-direction: column;    
+}
+
+.loginFormInputs input {   
+    border: none;
+    border-bottom: 1px solid gray;   
+    padding: 9px 31px;
+    outline: none;   
+    font-family: inherit;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.loginFormAction {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;   
+    justify-content: space-between;
+    padding: 0 22px;
+    align-items: center;
+}
+
+.forgotPassword  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.forgotPassword a {
+    color: gray !important;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btnSubmit {
+    background: transparent;
+    border: 2px solid crimson;
+    color: crimson;
+    transition: 1s ease;
+    font-size: 14px;
+}
+
+.btnSubmit:hover {
+    background: crimson;    
+    color: white;
+}
+
+.btnSwitch {
+    background: #6868b9;
+    color: white;}
+
+@media only screen and (max-width: 600px) {
+    .loginFormContainer {
+      width: 80%;
+    }
+    .btnSubmit {
+        padding: 8px 16px;
+    }
+    .btnSwitch {
+        padding: 8px 16px;
+    }
+  }
+
+.errorMessage {
+    color: crimson;
+    font-size: 12px;
+    text-align: center;
+}
+
+.serverError {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.serverError p {
+    color: crimson;
+}
+
+.sessionExpiration {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid crimson;
+    margin-bottom: 1rem;
+    padding: 10px;
+    color: crimson;
+}

@@ -1,0 +1,141 @@
+.singleEnvelopeContainer {
+        margin-top: 1rem;   
+        font-family: 'Roboto';    
+}
+
+.envelope {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.envelope a {
+    color: white!important;
+    background-color: #469fc9;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #469fc9;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    margin-bottom: 3rem;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.envelope a:hover {
+    color: white !important;
+    background-color: #0e6892 !important;   
+    border: 1px solid #0e6892 !important;
+}
+
+.singleEnvelopeInfo {    
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;    
+}
+
+.singleEnvelopeInfo h1{
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.singleEnvelopeInfo p {
+    color: #838383;
+    font-weight: 300;
+    text-align: start;
+}
+
+.singleEnvelopeInfo h2{
+    color: #8f8c8c;
+    font-weight: 300;    
+}
+
+.singleEnvelopeStats {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.singleEnvelopeStats h2{
+    color: black;
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.circleContainer {
+    z-index: -1;
+}
+
+.singleEnvelopeActions {
+    width: 50%;
+    margin: 3rem auto;      
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center
+}
+
+.singleEnvelopeActionBtn {
+    font-size: 15px;
+    outline: none;
+    background-color: #dbdbdb;
+    transition: 1s ease;
+}
+
+.singleEnvelopeActionBtn:hover {
+    color: #dbdbdb;
+    background-color: black;
+}
+
+.circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background: #FFCDB2;
+    overflow: hidden;
+  }
+  
+.circle.percentage {
+    background-image: conic-gradient(#302d2e 75%, #cbc3bf 0);
+  }
+  
+.circle .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115px;
+    height: 115px;
+    background: #ffff;
+    border-radius: 50%;
+    font-size: 1.85em;
+    font-weight: 300;
+    color: rgb(124 115 115 / 75%);
+  }
+
+ @media only screen and (max-width: 600px) {
+    .singleEnvelopeActions {
+        width: 90%;
+        padding: 20px;
+    }
+    .envelope a {       
+        width: 75%;       
+    }
+  }
+
+

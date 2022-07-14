@@ -1,0 +1,143 @@
+.transferContainer {
+    width: 90%;
+    margin: 4rem auto;   
+}
+
+.transferTitle {
+    background: #212529;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transferTitle h1 {
+    font-size: 1.4rem;
+}
+
+.transferSourceContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+
+.transferSourceContainer h2{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Roboto';
+}
+
+.transferSourceContainer h3{
+    font-size: 1rem;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.destinationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.destinationContainer h2{
+    font-size: 1.3rem;
+    font-family: 'Roboto';
+}
+
+.formTransfer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.formTransfer input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: 2rem 0;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+.formTransfer select {
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    margin: 1rem 0;
+    background-color: #212529;
+    color: white;
+    height: 3rem;
+    padding: 10px;    
+    font-family: 'Roboto';
+}
+
+.inputSection {
+    display: flex;
+    align-items: center;}
+
+.inputSection p{
+    margin-right: 1rem;
+    font-family: 'Roboto';
+}
+
+.transferContainerAction {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btnOk {
+    padding: 9px 20px;
+    background: #212529;
+    color: white;
+    transition: 1s ease;
+    border: 1px solid #212529;
+    font-family: 'Roboto';
+}
+
+.btnOk:hover {
+    background: white;
+    color: #212529;
+    border: 1px solid #212529;
+    font-family: 'Roboto';
+}
+
+.btnCancel {
+    padding: 9px 20px;
+    background: rgb(143, 53, 53);
+    color: white;
+    transition: 1s ease; 
+    border: 1px solid rgb(143, 53, 53);   
+    font-family: 'Roboto';
+}
+
+.btnCancel:hover {
+    background: white;
+    color: rgb(143, 53, 53);
+    border: 1px solid rgb(143, 53, 53);    
+}
+
+.errorMessage {
+    font-size: 14px;
+    color: red;
+    font-style: italic;
+    margin: 1rem 0;
+    font-family: 'Roboto';
+}
+
+.errorMessageBtn {
+    background: #50638d;
+    color: white;
+}
+
+.errorWrapper {
+    height: 100vh;
+}

@@ -1,0 +1,52 @@
+.genericErrorContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.genericErrorContainer h1 {
+    font-family: 'ROBOTO';
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.genericErrorContainer h2 {
+    font-family: 'ROBOTO';
+    color: #524f4f;
+  
+}
+
+.genericErrorAction {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.backBtn {
+    background-color: #469fc9;
+    color: white;
+    font-family: inherit;
+    transition: 0.5s ease;
+    outline: none;
+}
+
+.backBtn:hover {
+    background-color: #0e6892;
+    
+}
+
+.homeButton {
+    background-color: #46c9a8;
+    color: white;
+    font-family: inherit;
+    transition: 0.5s ease;
+    outline: none;
+}
+
+.homeButton:hover {
+    background-color: #31997f;
+   
+}

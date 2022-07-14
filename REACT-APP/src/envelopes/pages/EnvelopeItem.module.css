@@ -1,0 +1,83 @@
+.envelopeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    -webkit-box-shadow:0px 8px 17px 3px rgba(0,0,0,0.33);
+    -moz-box-shadow:0px 8px 17px 3px rgba(0,0,0,0.33);
+    box-shadow: 0px 8px 17px 3px rgba(0,0,0,0.33)
+}
+
+.envelopeInfo a{
+    color: black !important;
+    font-size: 0.8rem;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.envelopeInfo a:hover{
+    color: white !important;    
+    transition: 0.3s;
+    background-color:#282828;    
+}
+
+.envelopeInfo button{
+    color: white !important;
+    font-family: inherit;
+    background-color: #2e2a2a;
+    font-size: 0.8rem;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.envelopeInfo button:hover{
+    color: crimson !important;   
+    background-color: white;
+    transition: 0.3s;  
+}
+
+.envelopeInfo h2{
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: 'Roboto';
+    color: #524f4f;
+    font-weight: 300;
+}
+
+.envelopeInfo p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.envelopeTag{
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    height: 10rem;
+}
+
+.envelopeTag h2 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.envelopeTag img {    
+    width: 140px;
+}
+
+.envelopeAction {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+

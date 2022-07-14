@@ -1,0 +1,90 @@
+.addEnvelopeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #E6E6E6;
+}
+
+.addFormContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.addFormTag {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    font-family: 'ROBOTO';
+    font-weight: 600;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.addFormInputs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 2rem;
+
+}
+
+.addFormInputs label {
+    font-weight: 300;
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+.addFormInputs input {
+    border: none;
+    background-color: #ededed;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.errorMessage {
+    font-family: 'ROBOTO';
+    font-size: 13px;
+    font-weight: 300;
+    color: #c31d1d;
+    font-style: italic;
+}
+
+.addFormAction {
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.addFormBtnOk {
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 1s ease;
+}
+
+.addFormBtnOk:hover {
+    background-color: white;
+    color: black;   
+}
+
+.addFormBtnCancel {
+    background-color: #9d4d4d;
+    color: white;
+    border: none; 
+    transition: 1s ease;
+}
+
+.addFormBtnCancel:hover {    
+    background-color: white;
+    color: #852d2d;   
+}

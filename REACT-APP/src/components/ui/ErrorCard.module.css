@@ -1,0 +1,41 @@
+.errorCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 8px 0px rgb(0 0 0 / 81%);
+    text-align: center;
+}
+
+.errorCard button {
+    background: #cc4967;
+    color: white;
+    transition: 1s ease;
+    margin-top: 2rem;
+}
+
+.errorCard button:hover {
+    background: #a51f3e;
+    color: white;
+}
+
+.errorCard a {
+    color: #282828 !important;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.errorCard a:hover {
+    color: #A51F3E !important;    
+}
+
+@media (min-width: 600px) {
+    .errorCard { 
+        width: 70%; 
+    }
+  }

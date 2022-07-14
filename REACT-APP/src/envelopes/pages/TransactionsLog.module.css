@@ -1,0 +1,64 @@
+.logContainer {
+    margin-top: 5rem;
+}
+
+.emptyLogContainer {
+    margin-top: 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.emptyLogContainer h1 {
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.backButton {
+    background-color:#469fc9;
+    transition: 0.6s ease;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.backButton:hover {
+    background-color:#0e6892;
+}
+
+.logContainer h1 {
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logListContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logListContainer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logListItem h2 {
+    background: #0e6892;
+    color: white;
+    padding: 16px;
+    /* border-radius: 30px; */
+    font-size: 1.3rem;
+}
+
+.logListItem p {
+    text-transform: capitalize; 
+}
+
+.listTitle {
+    font-weight: bold;
+}

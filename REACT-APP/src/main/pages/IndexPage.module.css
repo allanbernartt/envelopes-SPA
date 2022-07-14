@@ -1,0 +1,136 @@
+.imageContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {  
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.platform {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.platform h1 {
+    font-size: 4rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.info {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.info h1 {
+    font-family: 'Roboto';
+    color: #4a4545;
+    margin: 2rem 0;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+.info p {
+    font-family: 'Roboto';
+    color: #4a4545;
+    font-size: 15px;
+}
+
+.instructionsContainer {
+    background: #f1f3f5;
+    padding: 3rem 0;
+    margin: 6rem 0;
+}
+
+.howWorks {
+    width: 80%;
+    margin: 0 auto;    
+    display: flex;
+    
+}
+
+.howWorksTitle {
+    font-family: 'Roboto';
+    color: #4a4545;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 3px solid #4a4545;
+}
+
+.howWorksList ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.howWorksList li{
+    display: flex;
+  
+}
+
+.howWorksList p {
+    margin-left: 5px;
+    width: 90%;
+    font-size: 15px;
+}
+
+
+.checkmark {
+    display:inline-block;
+    width: 22px;
+    height:22px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.checkmarkStem {
+    position: absolute;
+    width:3px;
+    height:9px;
+    background-color:rgb(146, 146, 146);
+    left:11px;
+    top:6px;
+}
+
+.checkmarkKick {
+    position: absolute;
+    width:3px;
+    height:3px;
+    background-color:rgb(146, 146, 146);
+    left:8px;
+    top:12px;
+}
+
+@media only screen and (max-width: 767px) {
+    .howWorks {
+      flex-direction: column;
+    }
+    .howWorksTitle {
+        border-right: none;
+        border-bottom: 3px solid #4a4545;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    .howWorksList {
+        margin-top: 1rem;
+    }
+    .platform h1 {
+        font-size: 3rem;
+        
+    }
+  }
