@@ -28,7 +28,6 @@ app.use(middleware.handle(i18next))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-//uncomment for SPA use
 const csrfProtection = csrf({ cookie: true })
 
 app.use(express.static(path.join('public')))
