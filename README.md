@@ -2,6 +2,8 @@
 
 This repo is a possible implementation of the [Envelope  Budgeting API](https://github.com/allanbernartt/envelopes-api) using ReactJS
 
+Access this README in portuguese: [README em Português](https://github.com/allanbernartt/envelopes-SPA/blob/main/README.pt-br.md)
+
 This project was built as part of my personal portfolio.
 
 It helped me solidify the knowledge regarding `ReactJS` concepts and libraries such as:
@@ -10,7 +12,7 @@ It helped me solidify the knowledge regarding `ReactJS` concepts and libraries s
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 - [custom hooks](https://reactjs.org/docs/hooks-custom.html)
 - [CSSTransition](http://reactcommunity.org/react-transition-group/css-transition)
-- MVC architecture
+- [Internationalization](https://www.npmjs.com/package/react-i18next)
 - [Code Splitting, Lazy Loading and Suspense](https://reactjs.org/docs/code-splitting.html)
 - among other things such as Deployment, Mobile First, React Context, Data Persintency, etc.
 
@@ -21,8 +23,6 @@ To run locally, run `npm install`, then `npm start` and open [http://localhost:5
 To see a working example of this project, please refer to the following:
 
 - Deployed SPA project in Heroku: [link](https://envelope-project.herokuapp.com/) 
-
-
 
 ## Contributing
 
